@@ -10,7 +10,9 @@ class Product extends CI_Controller {
 
 	function index(){
 		$data['products'] = $this->product_model->get_products();
-		$this->load->view('product_list_view', $data);
+        $this->load->view('product_list_view', $data);
+        $this->load->view('product_list_view3', $data);
+        
 	}
 
 	// add new product
