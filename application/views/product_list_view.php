@@ -21,7 +21,8 @@
 	      				<th>Category</th>
 	      				<th>Sub Category</th>
 	      				<th>Price</th>
-	      				<th>Action</th>
+						<th>Action</th>
+						<th>Action_2</th>  
 	      			</tr>
 	      		</thead>
 	      		<tbody>
